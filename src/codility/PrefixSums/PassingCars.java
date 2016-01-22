@@ -7,7 +7,7 @@ public class PassingCars {
   //Solution to https://codility.com/programmers/task/passing_cars/
   public int solution(int[] A) {
     int [] prefixSums = new int [A.length];
-    List<Integer> indexesToCalc = new LinkedList<Integer>();
+    List<Integer> indexesToCalc = new LinkedList<>();
     prefixSums[0] = A[0];
     if(A[0] == 0){
       indexesToCalc.add(0);

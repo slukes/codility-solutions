@@ -5,9 +5,9 @@ public class MissingInteger {
   public int solution(int[] A) {
     int[] bitmap = new int[A.length + 2];
 
-    for (int i = 0; i < A.length; i++) {
-      if (A[i] > 0 && A[i] <= A.length) {
-        bitmap[A[i]] = 1;
+    for (int eachInt : A) {
+      if (eachInt > 0 && eachInt <= A.length) {
+        bitmap[eachInt] = 1;
       }
     }
 
