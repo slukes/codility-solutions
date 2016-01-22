@@ -1,4 +1,7 @@
+package codility.countingElements;
+
 public class PermCheck {
+  //Solution to https://codility.com/programmers/task/perm_check/
   public int solution(int[] A) {
     int[] bitmap = new int[A.length + 1];
     int counter = A.length;

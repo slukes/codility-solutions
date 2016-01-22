@@ -1,4 +1,7 @@
+package codility.countingElements;
+
 public class MissingInteger {
+  //Solution to https://codility.com/programmers/task/missing_integer/
   public int solution(int[] A) {
     int[] bitmap = new int[A.length + 2];
 

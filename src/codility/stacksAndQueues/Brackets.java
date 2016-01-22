@@ -1,15 +1,15 @@
+package codility.stacksAndQueues;
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-/**
- * Created by Sam Lukes on 11/01/16.
- */
+
 public class Brackets {
+  //Solution to https://codility.com/programmers/task/brackets/. 100%
   public int solution(String S) {
     if (S.length() % 2 != 0) {
       return 0;
     }
-
     Deque<Character> bracketStack = new ArrayDeque<>();
     for (char eachChar : S.toCharArray()) {
       if (eachChar == '(' || eachChar == '{' || eachChar == '[') {

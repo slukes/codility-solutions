@@ -1,7 +1,10 @@
+package codility.PrefixSums;
+
 import java.util.LinkedList;
 import java.util.List;
 
 public class PassingCars {
+  //Solution to https://codility.com/programmers/task/passing_cars/
   public int solution(int[] A) {
     int [] prefixSums = new int [A.length];
     List<Integer> indexesToCalc = new LinkedList<Integer>();

@@ -1,4 +1,7 @@
+package codility.stacksAndQueues;
+
 public class Nesting {
+  //Solution to https://codility.com/programmers/task/nesting/.  100%
   public int solution(String S) {
     int openingBracks = 0;
     for (Character eachBrack : S.toCharArray()) {
